@@ -1,0 +1,11 @@
+/* MESUR theme: near-black, white and the red of mesur.es buttons. Warnings move to amber so they stay distinct. */
+.chapter { color:#fff; }
+.chapter .kicker,.chapter strong,.chapter .num { color:#fff; }
+.chapter .sub { color:#ffe6ea; }
+.chapter .inner { border-top-color:#fff; }
+.film-play { color:#fff; }
+.film-duration { border-left-color:#fff6; }
+.jump-form button { color:#fff; }
+.warning { --acento:#ffb547; }
+.crt-accent.crt-coral { --crt-color:#ffb547; --crt-stripe:#b97a1c; }
+.sentinel-eyebrow,.sentinel-desc strong { color:#ffb547; }
