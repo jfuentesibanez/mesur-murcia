@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tu plan para el lunes · MESUR</title>
+<style>
+:root { --rojo:#de1b3c; --tinta:#1b1b1d; --gris:#5c6066; --linea:#d9d6d0; --papel:#ffffff; --fondo:#f4f2ee; }
+* { box-sizing:border-box; margin:0; padding:0; }
+body { font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; background:var(--fondo); color:var(--tinta); line-height:1.4; padding:24px 12px; }
+.hoja { background:var(--papel); max-width:210mm; margin:0 auto; padding:14mm 15mm 12mm; }
+header { display:flex; justify-content:space-between; align-items:flex-end; gap:16px; border-bottom:3px solid var(--rojo); padding-bottom:10px; }
+.k { color:var(--rojo); font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; }
+h1 { font-size:30px; line-height:1.05; letter-spacing:-.02em; margin-top:4px; }
+.quien { font-size:11px; color:var(--gris); text-align:right; white-space:nowrap; }
+h2 { font-size:13px; letter-spacing:.1em; text-transform:uppercase; color:var(--rojo); margin:16px 0 8px; }
+.pasos { list-style:none; counter-reset:paso; }
+.pasos li { counter-increment:paso; display:grid; grid-template-columns:34px 1fr; gap:10px; padding:8px 0; border-top:1px solid var(--linea); }
+.pasos li::before { content:counter(paso); font-size:24px; font-weight:700; color:var(--rojo); line-height:1; }
+.pasos b { display:block; font-size:15px; }
+.pasos span { font-size:12.5px; color:var(--gris); }
+.dos { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+.caja { border:1px solid var(--linea); border-radius:6px; padding:10px 12px; font-size:12.5px; }
+.caja p + p { margin-top:6px; }
+.frase { font-family:Georgia,'Times New Roman',serif; font-style:italic; background:#faf8f5; border-left:3px solid var(--rojo); padding:7px 10px; margin-top:6px; font-size:12.5px; }
+.lineas { margin-top:6px; }
+.lineas i { display:block; border-bottom:1px solid #b9b6b0; height:22px; }
+ul.reglas { list-style:none; font-size:12.5px; }
+ul.reglas li { padding:4px 0 4px 16px; position:relative; }
+ul.reglas li::before { content:''; position:absolute; left:0; top:11px; width:7px; height:7px; background:var(--rojo); }
+footer { margin-top:14px; padding-top:8px; border-top:1px solid var(--linea); font-size:10.5px; color:var(--gris); display:flex; justify-content:space-between; gap:12px; }
+.imprimir { display:block; margin:16px auto 0; padding:10px 18px; background:var(--rojo); color:#fff; border:0; border-radius:100px; font:600 14px inherit; cursor:pointer; }
+@media (max-width:640px) { .dos { grid-template-columns:1fr; } header { flex-direction:column; align-items:flex-start; } .quien { text-align:left; } }
+@page { size:A4; margin:0; }
+@media print { body { background:#fff; padding:0; } .hoja { max-width:none; width:210mm; min-height:297mm; } .imprimir { display:none; } }
+</style>
+</head>
+<body>
+<div class="hoja">
+  <header>
+    <div><div class="k">Inteligencia artificial en tu día a día</div><h1>Tu plan para el lunes</h1></div>
+    <div class="quien">MESUR · Murcia · 20 de noviembre de 2026<br>Javier Fuentes · N Company</div>
+  </header>
+
+  <h2>Cinco pasos. Ninguno lleva más de diez minutos.</h2>
+  <ol class="pasos">
+    <li><div><b>Elige una sola herramienta y ponla en el móvil.</b><span>ChatGPT, Claude, Gemini o Copilot. Cualquiera vale para empezar. No pruebes cuatro a la vez.</span></div></li>
+    <li><div><b>Apunta tres tareas que repites cada semana.</b><span>Las que te quitan tiempo y no te gustan: correos, presupuestos, papeles, publicaciones.</span><div class="lineas"><i></i><i></i><i></i></div></div></li>
+    <li><div><b>Prueba con la más pesada.</b><span>Hoy, no cuando tengas un rato. Diez minutos bastan para saber si te sirve.</span></div></li>
+    <li><div><b>Cuéntale quién eres y para quién es.</b><span>Cuanto más le cuentes, mejor te ayuda. Enséñale un ejemplo de cómo lo haces tú.</span></div></li>
+    <li><div><b>Revisa lo que te da antes de usarlo.</b><span>Se equivoca con mucha seguridad. Lo que importa, compruébalo.</span></div></li>
+  </ol>
+
+  <div class="dos">
+    <div>
+      <h2>Tres frases que funcionan</h2>
+      <div class="caja">
+        <p><b>Para pedir algo:</b></p>
+        <div class="frase">Soy [tu oficio] en [tu ciudad]. Necesito [lo que quieres] para [quién lo va a leer]. Hazlo [corto / cercano / formal]. Si te falta algún dato, pregúntamelo.</div>
+        <p><b>Para leer un contrato o una oferta:</b></p>
+        <div class="frase">No me lo resumas. Dime dónde me pueden pillar, en qué página y qué debería preguntar antes de firmar.</div>
+        <p><b>Cuando no acierta:</b></p>
+        <div class="frase">Así escribo yo: [pega un ejemplo tuyo]. Hazlo otra vez con ese estilo.</div>
+      </div>
+    </div>
+    <div>
+      <h2>Tres reglas</h2>
+      <div class="caja">
+        <ul class="reglas">
+          <li><b>Revisa lo importante antes de enviarlo.</b> Cifras, fechas, nombres y todo lo que firmes.</li>
+          <li><b>No le cuentes lo que no le contarías a un desconocido.</b> Ni contraseñas, ni cuentas bancarias, ni datos personales de tus clientes.</li>
+          <li><b>Lo firmas tú.</b> Si sale mal, la responsabilidad es tuya, no de la herramienta.</li>
+        </ul>
+      </div>
+      <h2>Ojo con los engaños</h2>
+      <div class="caja">
+        <p>Hoy se puede imitar una voz y una cara. Si alguien te pide un pago o un cambio de cuenta por mensaje, audio o vídeo, <b>llama tú a un número que ya conozcas</b> antes de hacer nada.</p>
+      </div>
+    </div>
+  </div>
+
+  <h2>Y después</h2>
+  <div class="caja"><p>Esto no se aprende en un curso. Se aprende usándolo <b>una hora a la semana</b>. Cuando algo te funcione, enséñaselo a un compañero.</p></div>
+
+  <footer><span>Para seguir al día: theindependentsentinel.substack.com</span><span>mesur.es</span></footer>
+</div>
+<button class="imprimir" onclick="window.print()">Imprimir esta hoja</button>
+</body>
+</html>

@@ -121,13 +121,12 @@ body { font-family: var(--serif); background: var(--fondo); color: var(--papel);
 .cover .presenter-name { color:var(--papel); font-size:clamp(26px,2.6vw,42px); font-weight:600; letter-spacing:-.025em; line-height:1.2; margin-bottom:1.2vh; }
 .cover-partners .mesur-logo { height:15vh; width:auto; display:block; filter:drop-shadow(0 2px 14px #000a); }
 </style>
-<link rel="stylesheet" href="stage.css?v=mesur-2">
+<link rel="stylesheet" href="stage.css?v=mesur-3">
 <link rel="stylesheet" href="mesur.css?v=1">
 </head>
 <body>
-<body>
 
-<!-- PORTADA -->
+
 <section class="slide cover" data-chapter="Inicio"><div class="inner">
   <div class="kicker">MESUR · Murcia · 20 de noviembre de 2026</div>
   <div class="gigante" aria-label="Inteligencia artificial en tu día a día">Inteligencia artificial<br><strong>en tu <span class="crt-accent" data-text="día a día">día a día</span></strong></div>
@@ -136,7 +135,6 @@ body { font-family: var(--serif); background: var(--fondo); color: var(--papel);
 <div class="cover-partners" aria-label="MESUR, distribuidores de material eléctrico"><img class="mesur-logo" src="img/mesur-logo.png" alt="MESUR · Distribuidores de material eléctrico" width="500" height="196"></div>
 </section>
 
-<!-- VIAJE EN EL TIEMPO -->
 <section class="slide viaje" data-title="Un viaje en el tiempo">
   <canvas class="vj-canvas" aria-label="Un viaje en el tiempo"></canvas>
   <div class="vj-hud"><div class="vj-year">2026</div><div class="vj-underline"></div></div>
@@ -149,8 +147,8 @@ body { font-family: var(--serif); background: var(--fondo); color: var(--papel);
 </div></section>
 
 <section class="slide"><div class="inner">
-  <div class="gigante agenda-four">Noventa días.<br>Seis casos prácticos.<br>Tres reglas.</div>
-  <div class="sub">Sin teoría. Todo lo que veas hoy lo puedes repetir el lunes.</div>
+  <div class="gigante agenda-four">Seis casos prácticos.<br>Tres reglas.<br>Un plan para el lunes.</div>
+  <div class="sub">Sin teoría y sin palabras raras. Todo lo que veas hoy lo puedes repetir tú el lunes.</div>
 </div></section>
 
 <section class="slide impact weird-beat" data-title="Esto se va a poner raro"><div class="inner">
@@ -169,112 +167,57 @@ body { font-family: var(--serif); background: var(--fondo); color: var(--papel);
   <p class="film-error" role="alert" hidden>El vídeo no se ha podido cargar. Ábrelo desde la carpeta de vídeos.</p>
 </section>
 
-<!-- NOVENTA DÍAS -->
-<section class="slide chapter" data-chapter="Noventa días"><div class="inner">
-  <div class="kicker">Primera parte</div>
-  <div class="gigante">Noventa <strong>días.</strong></div>
-  <div class="sub">Lo que ha pasado desde el verano.</div>
+<section class="slide" data-chapter="Lo que ya hace sola"><div class="inner">
+  <div class="kicker">Por qué hablamos de esto hoy</div>
+  <div class="statement">Hace tres años, la IA terminaba sola tareas de unos minutos.<br><strong>Hoy termina trabajos que a una persona le llevan horas.</strong></div>
+  <div class="sub">Medido de forma independiente: más de tres horas. Estimado para los modelos más nuevos: casi una semana de trabajo. Y se duplica cada pocos meses.</div>
 </div></section>
 
-<section class="slide steps evidence"><div class="inner">
-  <div class="kicker">Solo en los últimos noventa días</div>
-  <ul class="lista compact">
-    <li class="step"><span class="n">SEP</span>Anthropic, OpenAI, Google y xAI lanzan un modelo nuevo cada uno. En cuatro semanas.</li>
-    <li class="step"><span class="n">OCT</span>Responden Google, Meta, Mistral y tres laboratorios chinos. Varios, con modelos abiertos.</li>
-    <li class="step"><span class="n">AHORA</span>Todos se venden con la misma promesa: trabaja solo, durante más tiempo.</li>
-    <li class="step"><span class="n">ESTA SEMANA</span>Anthropic, el fabricante de Claude, sale a bolsa en el Nasdaq.</li>
-  </ul>
-  <div class="clips">
-    <div class="clip r2 step"><img src="img/clip-cnbc-argon.png" alt="Recorte de prensa de CNBC sobre el nuevo modelo de Google" decoding="sync"><div class="src">CNBC · octubre de 2026</div></div>
-  </div>
+<section class="slide foto contain claro" data-title="Cuánto trabajo seguido puede hacer sola una IA"><img src="img/horizon-nov-2026.jpg" alt="Gráfico: duración de las tareas que distintos modelos de IA terminan solos con un 80% de éxito. De casi cero entre 2019 y 2024 a varias horas en 2026, con estimaciones cercanas a 38 horas." decoding="sync"></section>
+
+<section class="slide negro impact"><div class="inner">
+  <div class="statement" style="text-align:center" aria-label="No hace falta entender cómo funciona. Hace falta saber qué pedirle.">No hace falta entender cómo funciona.<br><strong>Hace falta saber <span class="crt-accent" data-text="qué pedirle">qué pedirle</span>.</strong></div>
 </div></section>
 
-<section class="slide steps evidence single"><div class="inner">
-  <div class="kicker">5 de septiembre de 2026</div>
-  <div class="statement">Una IA presenta la demostración de un problema abierto de matemáticas.<br><strong>10.000 agentes. 88 horas.</strong></div>
-  <div class="sub">Pendiente de confirmación independiente. La máquina tardó menos de cuatro días; la revisión humana va a otro ritmo.</div>
-  <div class="clips">
-    <div class="clip r1 big step"><img src="img/clip-quartz-navier.png" alt="Recorte de prensa de Quartz sobre la demostración de Navier-Stokes" decoding="sync"><div class="src">Quartz · septiembre de 2026</div></div>
-  </div>
-</div></section>
-
-<section class="slide steps evidence single prediction-beat"><div class="inner">
-  <div class="kicker">El ritmo se acelera</div>
-  <div class="statement">La curva se empina.<br><strong>El progreso va ahora casi el doble de rápido.</strong></div>
-  <div class="prediction-punch" role="heading" aria-level="2" aria-label="Las predicciones exactas no sirven. La dirección, sí.">Las predicciones exactas<br><span class="crt-accent" data-text="no sirven" aria-hidden="true">no sirven</span>.<small class="prediction-turn">La dirección, sí.</small></div>
-  <div class="clips">
-    <div class="clip r1 big step"><img src="img/clip-metr-aeci.png" alt="Gráfico de METR sobre la aceleración de la capacidad de los modelos" decoding="sync"><div class="src">METR · noviembre de 2026 · aceleración 1,9× · IC 95%: 1,5×–2,8×</div></div>
-  </div>
-</div></section>
-
-<section class="slide steps evidence"><div class="inner">
-  <div class="kicker">Y ha salido de la pantalla</div>
-  <div class="statement">Excavadoras autónomas haciendo <strong>trabajo facturado</strong> en obras reales.<br>Su fabricante levantó 600 millones de dólares en octubre.</div>
-  <div class="clips">
-    <div class="clip r1 step"><img src="img/clip-cdive-bedrock.png" alt="Recorte de prensa de Construction Dive sobre Bedrock Robotics" decoding="sync"><div class="src">Construction Dive · agosto de 2026</div></div>
-    <div class="clip r2 step"><img src="img/clip-cdive-icon.png" alt="Recorte de prensa de Construction Dive" decoding="sync"><div class="src">Construction Dive · octubre de 2026</div></div>
-  </div>
-</div></section>
-
-<section class="slide film" data-duration="2:14" data-title="Figure · Inteligencia en el mundo físico">
-  <video controls playsinline preload="metadata" aria-label="Figure: Helix 02 ordenando un dormitorio, 2 minutos 14 segundos" src="https://videos.ctfassets.net/qx5k8y1u9drj/6ejXSHWNFd9qTBVxopCWF8/398d4ebfdde91a77a3c6cf41754fd82d/Tidy_Bedroom_MP4_Longer_Ending__1_.mp4">
-    <a href="https://www.figure.ai/news/helix-02-bedroom-tidy" target="_blank" rel="noopener noreferrer">Ver el vídeo en la web de Figure</a>
-  </video>
-  <div class="film-intro">
-    <div class="kicker">Figure · Helix 02 · mayo de 2026</div>
-    <h1>Inteligencia en el<br><strong>mundo físico.</strong></h1>
-    <button type="button" class="film-play"><span aria-hidden="true">▶</span> Ver vídeo <span class="film-duration">2:14</span></button>
-    <p>Espacio para reproducir o pausar · → para continuar</p>
-  </div>
-  <a class="film-source" href="https://www.figure.ai/news/helix-02-bedroom-tidy" target="_blank" rel="noopener noreferrer">Figure · Helix 02 Bedroom Tidy ↗</a>
-  <p class="film-error" role="alert" hidden>El vídeo no se ha podido cargar. Revisa la conexión o <a href="https://www.figure.ai/news/helix-02-bedroom-tidy" target="_blank" rel="noopener noreferrer">ábrelo en la web de Figure</a>.</p>
-</section>
-
-<section class="slide"><div class="inner">
-  <div class="statement">Las olas llegan más rápido de lo que las empresas las absorben.<br><strong>No se coge una ola terminando el curso sobre la anterior.</strong></div>
-  <div class="sub">Aprender ya no es un curso. Es un hábito: <strong>una hora a la semana con la herramienta en tus manos.</strong></div>
-</div></section>
-
-<!-- SEIS CASOS -->
 <section class="slide chapter" data-chapter="Seis casos prácticos"><div class="inner">
-  <div class="kicker">Segunda parte</div>
+  <div class="kicker">Primera parte</div>
   <div class="gigante">Seis <strong>casos prácticos.</strong></div>
-  <div class="sub">Ninguno es de material eléctrico. Todos sirven para tu lunes, seas comercial, instalador, fabricante o gerente.</div>
+  <div class="sub">Cosas de todos los días en una empresa pequeña. Los hacemos aquí, en directo, con herramientas que puedes usar desde el móvil.</div>
 </div></section>
 
 <section class="slide demo" data-mark="01"><div class="inner">
-  <div class="num">CASO 1 · INVESTIGAR</div>
-  <div class="statement">Mañana visitas a un cliente nuevo.<br><strong>Un informe con fuentes en diez minutos.</strong></div>
-  <div class="sub">Fíjate en: dice de dónde saca cada dato.</div>
+  <div class="num">CASO 1 · PREPARAR UNA VISITA</div>
+  <div class="statement">Mañana visitas a un cliente que no conoces.<br><strong>En diez minutos sabes quién es y qué preguntarle.</strong></div>
+  <div class="sub">Fíjate en: te dice de dónde saca cada dato.</div>
 </div></section>
 
 <section class="slide demo" data-mark="02"><div class="inner">
-  <div class="num">CASO 2 · VER</div>
-  <div class="statement">Una foto de tus notas a mano.<br><strong>Salen el acta, las tareas y el correo de seguimiento.</strong></div>
-  <div class="sub">Fíjate en: lo que no entiende, lo pregunta.</div>
+  <div class="num">CASO 2 · DE LA FOTO A LA TABLA</div>
+  <div class="statement">Una foto de un montón de tickets y facturas.<br><strong>Sale una tabla ordenada, lista para la gestoría.</strong></div>
+  <div class="sub">Fíjate en: lo que no puede leer, lo pregunta.</div>
 </div></section>
 
 <section class="slide demo" data-mark="03"><div class="inner">
-  <div class="num">CASO 3 · RAZONAR</div>
-  <div class="statement">Un contrato de cuarenta páginas.<br><strong>No pidas un resumen. Pide que te lleve la contraria.</strong></div>
-  <div class="sub">Fíjate en: un compañero que piensa, no un becario.</div>
+  <div class="num">CASO 3 · LEER LA LETRA PEQUEÑA</div>
+  <div class="statement">Te mandan un contrato de veinte páginas.<br><strong>No pidas un resumen. Pregunta dónde te pueden pillar.</strong></div>
+  <div class="sub">Fíjate en: te señala la cláusula y la página.</div>
 </div></section>
 
 <section class="slide demo" data-mark="04"><div class="inner">
-  <div class="num">CASO 4 · CREAR</div>
-  <div class="statement">Un documento de texto.<br><strong>Una presentación lista en cinco minutos.</strong></div>
-  <div class="sub">Fíjate en: el primer borrador ya no es tu trabajo. Mejorarlo, sí.</div>
+  <div class="num">CASO 4 · ESCRIBIR POR TI</div>
+  <div class="statement">Una foto de un trabajo terminado.<br><strong>Sale la publicación, el texto para la web y la respuesta a una reseña.</strong></div>
+  <div class="sub">Fíjate en: suena a ti, si le enseñas cómo escribes.</div>
 </div></section>
 
 <section class="slide demo" data-mark="05"><div class="inner">
-  <div class="num">CASO 5 · CONSTRUIR</div>
-  <div class="statement">Una idea y un párrafo de instrucciones.<br><strong>Una herramienta que funciona, sin saber programar.</strong></div>
+  <div class="num">CASO 5 · HACERTE UNA HERRAMIENTA</div>
+  <div class="statement">Le cuentas lo que necesitas, con tus palabras.<br><strong>Te hace una aplicación que funciona. Sin saber programar.</strong></div>
   <div class="sub">Fíjate en: qué decidió por su cuenta. Y en qué se equivocó.</div>
 </div></section>
 
 <section class="slide demo" data-mark="06"><div class="inner">
-  <div class="num">CASO 6 · VÍDEO SINTÉTICO</div>
-  <div class="statement">Un mensaje grabado una sola vez.<br><strong>Entregado en cuatro idiomas.</strong></div>
+  <div class="num">CASO 6 · VÍDEO</div>
+  <div class="statement">Un mensaje grabado una sola vez.<br><strong>Lo tienes en cuatro idiomas, con tu cara y tu voz.</strong></div>
   <div class="sub">Fíjate en: qué es real en esta pantalla.</div>
 </div></section>
 
@@ -340,16 +283,15 @@ body { font-family: var(--serif); background: var(--fondo); color: var(--papel);
 
 <section class="slide steps warning evidence single" data-title="Comprueba quién te habla · El engaño de los 25 millones"><div class="inner">
   <div class="kicker" style="color:var(--coral)">La misma tecnología, apuntando hacia ti</div>
-  <div class="statement">Una ingeniería perdió <strong>25 millones de dólares</strong> en una videollamada.<br>Todas las caras de la llamada eran sintéticas.</div>
-  <div class="sub">Antes de pagar o cambiar una cuenta bancaria, confirma la petición por otro canal de confianza.</div>
+  <div class="statement">Una empresa perdió <strong>25 millones de dólares</strong> en una videollamada.<br>Todas las caras de la llamada eran falsas.</div>
+  <div class="sub">Si te piden un pago o un cambio de cuenta por mensaje o por vídeo, llama tú a un número que ya conozcas.</div>
   <div class="clips">
     <div class="clip r1 big step"><img src="img/clip-fortune-arup.png" alt="Recorte de prensa de Fortune sobre el fraude a Arup" decoding="sync"><div class="src">Fortune · mayo de 2024</div></div>
   </div>
 </div></section>
 
-<!-- BRILLANTE Y POCO FIABLE -->
 <section class="slide warning" data-chapter="Brillante y poco fiable"><div class="inner">
-  <div class="kicker" style="color:var(--coral)">Tercera parte</div>
+  <div class="kicker" style="color:var(--coral)">Segunda parte</div>
   <div class="gigante">Brillante y poco fiable.<br><strong>En el mismo minuto.</strong></div>
 </div></section>
 
@@ -374,7 +316,7 @@ body { font-family: var(--serif); background: var(--fondo); color: var(--papel);
 
 <section class="slide steps evidence single"><div class="inner">
   <div class="kicker">Comprueba el resultado</div>
-  <div class="statement">Un informe de 237 páginas para un gobierno. Citas inventadas. Devolución parcial del importe.<br><strong>El modelo no firmó el informe. Lo firmó la empresa.</strong></div>
+  <div class="statement">Una consultora entregó a un gobierno un informe con datos que la IA se había inventado. Tuvo que devolver parte del dinero.<br><strong>La IA no firmó el informe. Lo firmó la empresa.</strong></div>
   <div class="clips">
     <div class="clip r1 big step"><img src="img/clip-fortune-deloitte.png" alt="Recorte de prensa de Fortune sobre el informe de Deloitte" decoding="sync"><div class="src">Fortune · octubre de 2025</div></div>
   </div>
@@ -383,40 +325,37 @@ body { font-family: var(--serif); background: var(--fondo); color: var(--papel);
 <section class="slide steps" data-chapter="Tres reglas"><div class="inner">
   <div class="kicker">Tres reglas</div>
   <ul class="lista">
-    <li class="step"><span class="n">01</span>Comprueba en proporción a lo que te juegas.</li>
-    <li class="step"><span class="n">02</span>Tú decides qué datos salen de tu empresa.</li>
-    <li class="step"><span class="n">03</span>Tu nombre sigue en lo que firmas.</li>
+    <li class="step"><span class="n">01</span>Revisa lo importante antes de enviarlo.</li>
+    <li class="step"><span class="n">02</span>No le cuentes lo que no le contarías a un desconocido.</li>
+    <li class="step"><span class="n">03</span>Lo firmas tú. La responsabilidad es tuya.</li>
   </ul>
 </div></section>
 
-<!-- TU NEGOCIO -->
 <section class="slide chapter" data-chapter="Tu negocio"><div class="inner">
-  <div class="kicker">Cuarta parte</div>
+  <div class="kicker">Tercera parte</div>
   <div class="gigante">Y ahora, <strong>tu negocio.</strong></div>
-  <div class="sub">Qué cambia para quien vende, para quien instala y para quien fabrica.</div>
+  <div class="sub">Qué cambia para quien tiene una empresa pequeña y poco tiempo.</div>
+</div></section>
+
+<section class="slide"><div class="inner">
+  <div class="statement">Una empresa grande tiene un departamento para cada cosa.<br><strong>Tú ahora tienes un ayudante para casi todas.</strong></div>
+  <div class="sub">Alguien que lee contratos, ordena papeles, escribe y hace cuentas. Por lo que cuesta una comida al mes.</div>
 </div></section>
 
 <section class="slide"><div class="inner">
   <div class="statement">La IA sabe bastante de casi todo.<br><strong>No conoce a tu cliente.</strong></div>
-  <div class="sub">No ha estado en su obra, no sabe qué plazo le aprieta ni qué le prometiste el año pasado. Quien lo sabe sigue siendo quien vende.</div>
+  <div class="sub">No ha estado en su casa ni en su obra. No sabe qué le prometiste ni cuándo lo necesita. Eso lo sabes tú, y por eso te llaman a ti.</div>
 </div></section>
 
 <section class="slide steps nondelegable" data-title="Lo que se queda contigo"><div class="inner">
   <div class="kicker">Lo que no se delega</div>
   <div class="statement">Lo que se queda <strong>contigo.</strong></div>
   <div class="nondelegable-grid">
-    <div class="step"><h2>Entender</h2><p>Saber qué estás decidiendo, y por qué.</p></div>
-    <div class="step"><h2>Criterio</h2><p>Pesar los pros y los contras. Decidir.</p></div>
-    <div class="step"><h2>Responsabilidad</h2><p>Responder de las consecuencias.</p></div>
+    <div class="step"><h2>Entender</h2><p>Saber qué estás decidiendo.</p></div>
+    <div class="step"><h2>Criterio</h2><p>Elegir lo que conviene.</p></div>
+    <div class="step"><h2>Responsabilidad</h2><p>Dar la cara si sale mal.</p></div>
     <div class="step"><h2>Confianza</h2><p>Ganársela. Mantenerla.</p></div>
   </div>
-</div></section>
-
-<section class="slide attack-beat" data-title="IA para defender. IA para atacar."><div class="inner">
-  <div class="kicker">Una distinción</div>
-  <div class="attack-line">La IA para ahorrar es <strong>defensa.</strong></div>
-  <div class="attack-line" aria-label="La IA en lo que entregas a tu cliente es ataque.">La IA en lo que entregas a tu cliente es <strong><span class="crt-accent" data-text="ataque" aria-hidden="true">ataque</span>.</strong></div>
-  <div class="attack-question">¿A qué está jugando tu empresa?</div>
 </div></section>
 
 <section class="slide steps shift-practice" data-title="A mano alzada · ¿Qué haces cuando la IA falla?"><div class="inner">
@@ -428,39 +367,50 @@ body { font-family: var(--serif); background: var(--fondo); color: var(--papel);
 </div></section>
 
 <section class="slide warning"><div class="inner">
-  <div class="kicker" style="color:var(--coral)">Lo que no te va a gustar</div>
-  <div class="statement">Tu cliente ya usa la IA. Tu proveedor, también.<br><strong>¿Cómo la usan contigo?</strong></div>
-  <div class="sub">Para leer tus ofertas. Para revisar tus facturas. Para compararte con el siguiente. Pregúntaselo.</div>
+  <div class="kicker" style="color:var(--coral)">Una cosa que no te va a gustar</div>
+  <div class="statement">Tu cliente ya la usa. Tu proveedor, también.<br><strong>¿Y tú?</strong></div>
+  <div class="sub">La usan para comparar presupuestos, para revisar facturas y para escribirte. No hace falta ser el primero. Conviene no ser el último.</div>
 </div></section>
 
-<section class="slide warning"><div class="inner">
-  <div class="kicker" style="color:var(--coral)">Lo que no te va a gustar</div>
-  <div class="statement">El jefe que reparte la IA a su equipo y no la toca<br>se convierte en el <strong>cuello de botella.</strong></div>
-  <div class="sub">Tu gente irá más rápido que tus aprobaciones. Después, te rodeará.</div>
+<section class="slide chapter" data-chapter="Tu plan para el lunes"><div class="inner">
+  <div class="kicker">Para terminar</div>
+  <div class="gigante">Tu plan para <strong>el lunes.</strong></div>
+  <div class="sub">Cinco pasos. Ninguno lleva más de diez minutos.</div>
 </div></section>
 
-<section class="slide steps" data-chapter="Para el lunes"><div class="inner">
-  <div class="kicker">Tres cosas para el lunes</div>
+<section class="slide steps" data-title="Tu plan para el lunes · Cinco pasos"><div class="inner">
+  <div class="kicker">El lunes por la mañana</div>
   <ul class="lista">
-    <li class="step"><span class="n">01</span>Elige una tarea que repites cada semana y hazla con IA.</li>
-    <li class="step"><span class="n">02</span>Reserva una hora a la semana con la herramienta en tus manos.</li>
-    <li class="step"><span class="n">03</span>Enséñale a un compañero lo que te ha funcionado.</li>
+    <li class="step"><span class="n">01</span>Elige una sola herramienta y ponla en el móvil.</li>
+    <li class="step"><span class="n">02</span>Apunta tres tareas que repites cada semana y te quitan tiempo.</li>
+    <li class="step"><span class="n">03</span>Prueba con la más pesada. Diez minutos.</li>
+    <li class="step"><span class="n">04</span>Cuéntale quién eres, para quién es y enséñale un ejemplo.</li>
+    <li class="step"><span class="n">05</span>Revisa lo que te da antes de usarlo.</li>
   </ul>
 </div></section>
 
-<section class="slide negro fourth-provocation" data-title="Empieza por tu propio trabajo"><div class="inner">
-  <div class="kicker">Y una más</div>
-  <div class="gigante" aria-label="Automatiza una parte de tu propio trabajo.">Automatiza una parte<br>de <strong><span class="crt-accent" data-text="tu propio trabajo" aria-hidden="true">tu propio trabajo</span>.</strong></div>
+<section class="slide"><div class="inner">
+  <div class="kicker">Y después</div>
+  <div class="statement">Esto no se aprende en un curso.<br><strong>Se aprende usándolo un rato cada semana.</strong></div>
+  <div class="sub">Una hora a la semana. Y cuando algo te funcione, <strong>enséñaselo a un compañero.</strong></div>
+</div></section>
+
+<section class="slide negro fourth-provocation" data-title="Empieza por lo que más pereza te da"><div class="inner">
+  <div class="kicker">Un consejo</div>
+  <div class="gigante" aria-label="Empieza por lo que más pereza te da.">Empieza por lo que<br><strong><span class="crt-accent" data-text="más pereza" aria-hidden="true">más pereza</span> te da.</strong></div>
 </div></section>
 
 <!-- DIOSES DE ARENA -->
 <section class="slide foto" data-chapter="Dioses de arena" data-title="Arena"><img src="img/sand.png" alt="Granos de arena con luz cálida" decoding="sync"></section>
+
 <section class="slide foto" data-title="Silicio"><img src="img/silicon.png" alt="Silicio cristalino" decoding="sync"></section>
+
 <section class="slide foto" data-title="El transistor"><img src="img/transistor.png" alt="Un transistor" decoding="sync"></section>
+
 <section class="slide foto" data-title="Uno de los primeros circuitos integrados"><img src="img/kilby.png" alt="Uno de los primeros circuitos integrados" decoding="sync"></section>
+
 <section class="slide foto" data-title="La GPU"><img src="img/gpu.png" alt="Primer plano de un procesador gráfico" decoding="sync"></section>
 
-<!-- THE INDEPENDENT SENTINEL -->
 <section class="slide sentinel" data-chapter="Para seguir al día" data-title="The Independent Sentinel">
   <div class="sentinel-glow" aria-hidden="true"></div>
   <div class="sentinel-grain" aria-hidden="true"></div>
