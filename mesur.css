@@ -6,6 +6,6 @@
 .film-play { color:#fff; }
 .film-duration { border-left-color:#fff6; }
 .jump-form button { color:#fff; }
-.warning { --acento:#ffb547; }
-.crt-accent.crt-coral { --crt-color:#ffb547; --crt-stripe:#b97a1c; }
+.warning { --acento:#e5243f; }
+.crt-accent.crt-coral { --crt-color:#e5243f; --crt-stripe:#a3142b; }
 .sentinel-eyebrow,.sentinel-desc strong { color:#ffb547; }
